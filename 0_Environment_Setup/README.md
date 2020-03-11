@@ -14,7 +14,7 @@
 首先前往  
 [https://www.python.org/downloads/release/python-374/](https://www.python.org/downloads/release/python-374/)  
 打开页面后向下翻到`Files`。点击下图有红框，且文字被圈出的链接:  
-![下载Python 3.7.4解释器](images/0_1_download_python.png)
+![下载Python 3.7.4解释器](images/0_1_download_python.png)  
 如果你使用32位Windows，那么很抱歉只能使用有红框且未被圈出的链接了。  
 也可以直接点击下载[64位安装](https://www.python.org/ftp/python/3.7.4/python-3.7.4-amd64.exe "64位")或[32位安装](https://www.python.org/ftp/python/3.7.4/python-3.7.4.exe "32位")  
 这里**x86, x86-64和AMD64是CPU上的硬件指令集的名称**。其中x86是经典的针对32位CPU的指令集。简单说来它的每一个基本指令可以让CPU处理两个32位二进制数。而x86-64则是AMD公司首先设计出的64位指令集（每个基本指令处理2个64位二进制数），且兼容32位的x86。  
@@ -183,15 +183,17 @@ D:\Program Files\Python37-32\;
 IDLE是官方附带的编辑器，会对不同类型的词标出不同的颜色，会在右下角显示行号。这个编辑器程序本身也由Python编写，所以你甚至可以改动它的配置，实现你想要的效果。关于它的更多功能，日后再说。  
 
 >由于你写的代码是个文本文件，所以任何你喜欢的文本编辑器都可以用来写代码。因此推荐安装`Sublime Text`（一个文本编辑器）和`PyCharm 2019.3`（一个集成式开发环境）。此外还有`conemu`（一个加强版`cmd`）。  
+>   
+> 计算机里很多东西不是复杂的0和1，而尽量都是文本内容。这是先辈们经过深思熟虑的坚持，是他们为我们留下的宝贵遗产。  
   
 ## 复习  
 >在命令行里执行`pip install requests`。  
 为什么你的命令行认识`pip`命令？因为`D:\Program Files\Python37\Scripts\`里面有`pip.exe`。  
-`install`和`requests`是文件名吗？不是。  
+`install`和`requests`是文件名吗？不是。它们只是你输入的“参数”。根据不同程序的内部逻辑，参数会被解释为不同含义。  
   
 >你向`cmd`输入一个文件名后，`cmd`会如何搜索这个文件名？  
   
->试着用`cmd`打开你电脑上的各种文件。你可以用`ls`命令列出当前目录下所有文件和文件夹。  
+>试着用`cmd`打开你电脑上的各种文件。你可以用`dir`命令列出当前目录下所有文件和文件夹。Linux系统对应的命令为`ls`。  
   
 >试着新建文本文档，把文件名改成英文（中文会遇到各种麻烦），后缀名txt直接改成py，并用IDLE编辑文件内容，写一个Python程序。程序内容为任意print你喜欢的文字。在cmd里执行你写的程序。  
   

@@ -27,6 +27,7 @@ print("\n")
 
 print("-------------我是华丽丽的分割线3-------------")
 
+print(f'{aa}',r'{aa}')  #1 {aa}
 print("%s"%(aa),"%d"%(aa))  #1 1
 print('{0} love {1}{2}'.format('I','ice','cream'))  #I love ice cream
 aa='{0} love {1}{2}'.format(aa,'ice','cream')
